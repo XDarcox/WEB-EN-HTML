@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afiliación Page</title>
+    <link rel="stylesheet" href="../Css/EstiloPremios.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="logo">Everest Capital Bank</div>
+        <div class="top-menu">
+            <a href="../Html/Historia.html">Historia</a>
+            <a href="../Html/AfiliaciónPage.html">Tarjetas</a>
+            <a href="../Html/Soat.html">SOAT</a>
+            <a href="../Html/BilleteraVirtual.html">Billetera virtual</a>
+            <a href="../Html/Convenios.html">Convenios</a>
+            <div class="search-bar"><input type="text" placeholder="Búsqueda" /></div>
+            <button class="btn-red">Acceder</button>
+        </div>
+    </div>
+    <div class="submenu">
+        <a href="../Html/Nosotros.html">Nosotros</a>
+        <a href="../Html/AfiliaciónPage.html">Afiliación</a>
+        <a href="../Html/Prestamos.html">Préstamos</a>
+        <a href="../Html/Seguros.html">Seguros</a>
+        <a href="../Html/ServicioDigital.html">Servicio Digital</a>
+        <a href="../Html/Soporte.html">Soporte y ayuda</a>
+        <a href="../Html/Premios.html"><strong>Premios</strong></a>
+    </div>
+
+    <div class="banner">
+        <div class="text">
+            <h1>¡Gana Increíbles Premios con Everest Capital Bank!</h1>
+            <p>Ahorra con una súper tasa y participa en nuestros sorteos exclusivos</p>
+            <button onclick="scrollToSection('premios')">Ver Premios</button>
+        </div>
+        <div style="font-size: 120px; color: gold;">🏆</div>
+    </div>
+
+    <section class="main-prize-section">
+        <h2 class="main-prize-title">¡GRAN SORTEO 2025!</h2>
+        <p class="main-prize-description">
+            Participa en nuestro sorteo más grande del año. Mientras más ahorres, más oportunidades tendrás de ganar.
+        </p>
+        <div class="raffle-card" style="max-width: 800px; margin: 0 auto;">
+            <h3>Premio Principal</h3>
+            <div class="prize-amount">S/ 100,000</div>
+            <div class="countdown">
+                <h4>Tiempo restante para participar:</h4>
+                <div class="countdown-numbers">
+                    <div class="countdown-item">
+                        <span class="number" id="days">45</span>
+                        <span class="label">Días</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="number" id="hours">12</span>
+                        <span class="label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="number" id="minutes">30</span>
+                        <span class="label">Minutos</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="number" id="seconds">15</span>
+                        <span class="label">Segundos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="participants">🎫 +15,000 participantes registrados</div>
+            <button class="participate-button">¡Participar Ahora!</button>
+            <div class="status-badge">Activo</div>
+        </div>
+    </section>
+
+    <section class="benefits-section">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 32px; color: #333;">¿Por qué elegir nuestros premios?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">💰</div>
+                <div class="benefit-title">Ahorra con una súper tasa</div>
+                <div class="benefit-description">
+                    Obtén hasta 8.5% TEA en tus ahorros mientras participas automáticamente en nuestros sorteos mensuales.
+                </div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏃‍♂️</div>
+                <div class="benefit-title">Disponibilidad de tu dinero</div>
+                <div class="benefit-description">
+                    Accede a tu dinero cuando lo necesites sin perder tu participación en los sorteos vigentes.
+                </div>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏪</div>
+                <div class="benefit-title">Depósitos sin costo</div>
+                <div class="benefit-description">
+                    Realiza depósitos sin costo en cualquier canal: app, web, agencias o corresponsales bancarios.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="winner-section">
+        <h3>🏆 Últimos Ganadores</h3>
+        <div class="winner-card">
+            <strong>María González</strong> - Lima<br>
+            <span style="color: gold;">S/ 10,000</span> - Sorteo Mensual Diciembre 2024
+        </div>
+        <div class="winner-card">
+            <strong>Carlos Mendoza</strong> - Arequipa<br>
+            <span style="color: gold;">S/ 5,000</span> - Premio Joven Diciembre 2024
+        </div>
+        <div class="winner-card">
+            <strong>Ana Pérez</strong> - Cusco<br>
+            <span style="color: gold;">S/ 15,000</span> - Premio Emprendedor Noviembre 2024
+        </div>
+    </section>
+
+    <section class="requirements">
+        <h4>📋 Requisitos para Participar</h4>
+        <ul>
+            <li>Ser cliente activo de Everest Capital Bank</li>
+            <li>Mantener una cuenta de ahorros con saldo mínimo de S/ 500</li>
+            <li>Realizar al menos una transacción mensual</li>
+            <li>Estar al día con todos los productos bancarios</li>
+            <li>Aceptar términos y condiciones del sorteo</li>
+        </ul>
+        <p style="margin-top: 20px; font-size: 14px; color: #666;">
+            * La participación es automática al cumplir los requisitos. No se requiere inscripción adicional.
+        </p>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Canales Digitales</h3>
+                <p>Haz tus operaciones desde el app y la web.</p>
+            </div>
+            <div class="footer-column">
+                <h3>LLÁMANOS</h3>
+                <p>(01) 209 0000 (Lima)</p>
+            </div>
+            <div class="footer-column">
+                <h3>SUGERENCIAS</h3>
+                <p>Déjanos tu sugerencia en <a href="mailto:BancoEverestCapital@gmail.com">BancoEverestCapital@gmail.com</a></p>
+            </div>
+            <div class="footer-column">
+                <h3>CRECEMOS CONTIGO</h3>
+                <p>Somos una comunidad donde escuchamos tus ideas.</p>
+            </div>
+            <div class="footer-column last-column">
+                <h3>LÍNEA 2025 - ACCIONAR</h3>
+                <p>Recuerda que puedes bloquear tus Tarjetas en una sola llamada al <strong>2025</strong>, línea EVERESTPERU</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Countdown timer simulation
+        function updateCountdown() {
+            const days = document.getElementById('days');
+            const hours = document.getElementById('hours');
+            const minutes = document.getElementById('minutes');
+            const seconds = document.getElementById('seconds');
+            let currentSeconds = parseInt(seconds.textContent);
+            let currentMinutes = parseInt(minutes.textContent);
+            let currentHours = parseInt(hours.textContent);
+            let currentDays = parseInt(days.textContent);
+            currentSeconds--;
+            if (currentSeconds < 0) {
+                currentSeconds = 59;
+                currentMinutes--;
+                if (currentMinutes < 0) {
+                    currentMinutes = 59;
+                    currentHours--;
+                    if (currentHours < 0) {
+                        currentHours = 23;
+                        currentDays--;
+                    }
+                }
+            }
+            days.textContent = currentDays.toString().padStart(2, '0');
+            hours.textContent = currentHours.toString().padStart(2, '0');
+            minutes.textContent = currentMinutes.toString().padStart(2, '0');
+            seconds.textContent = currentSeconds.toString().padStart(2, '0');
+        }
+
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
+
+        // Add click handlers for participate buttons
+        document.querySelectorAll('.participate-button').forEach(button => {
+            button.addEventListener('click', function() {
+                if (this.parentElement.querySelector('.status-badge').textContent === 'Activo') {
+                    alert('¡Genial! Tu participación ha sido registrada. ¡Buena suerte!');
+                } else if (this.parentElement.querySelector('.status-badge').textContent === 'Próximamente') {
+                    alert('Este sorteo estará disponible próximamente. ¡Mantente atento!');
+                } else {
+                    alert('Este sorteo ya ha finalizado. ¡Participa en los sorteos activos!');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
